@@ -1,0 +1,22 @@
+div{
+    background-color:rgba(0.5,0.4,0,.05);
+    background:inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background: rgba(3,3,3,0.25);
+    box-shadow: 5px 5px 50px #000;
+    backdrop-filter: blur(5px);
+}
+body{
+    background-image: url(fondo.jpg);
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: beige;
+    text-align: center;    
+}
