@@ -11,11 +11,11 @@
     <h1>Formulario</h1>
     <form action="index2.html" onsubmit="return validacion()" method="get">
         <p>El RFC puede ser de dos tipos, personas físicas y personas morales. La longitud del RFC de las personas físicas es de <strong>13 caracteres</strong>:
-        Los primeros 4 son letras correspodientes a su nombre completo, luego las cifras 6 de su fecha de nacimiento y los tres restantes son generados aleatoriamente por el SAT. En el caso de las personas morales cambia a <strong>12 caracteres</strong> y los primeros 3 corresponden a las iniciales de su denominación social, los siguientes 6 son de su fecha de fundación y por último los tres aleatorios que genera el SAT</p>
+        Los primeros 4 son letras correspodientes a su nombre completo, luego las 6 cifras de su fecha de nacimiento AAMMDD y los tres restantes son generados aleatoriamente por el SAT. En el caso de las personas morales cambia a <strong>12 caracteres</strong> y los primeros 3 corresponden a las iniciales de su denominación social, los siguientes 6 son de su fecha de fundación y por último los tres aleatorios que genera el SAT</p>
         <label for="">RFC</label>
         <input type="text" id="rfc">
         <br>
-        <p>Los valores ingresados deben ser en el formato <strong>Grados °, Minutos ', Segundos "</strong>, en latitud los grados pueden ir de 0-90, y en longitud de 0-180, los minutos y segundos van de 0-60. Para la latitud se debe poner posteriormente a las coordenadas las letras N de norte o S de Sur, para la longitud se usan las letras E de Este y O de Oste. Adicionalmente los segundos pueden incluir opcionalmente hasta <strong>cuatro decimales</strong>. Un ejemplo válido son las coordenadas 18°30′13″N,88°18′19.53″O</p>
+        <p>Los valores ingresados deben ser en el formato <strong>Grados °, Minutos ', Segundos "</strong>, en latitud los grados pueden ir de 0-90, y en longitud de 0-180, los minutos y segundos van de 0-59. Para la latitud se debe poner posteriormente a las coordenadas las letras N de norte o S de Sur, para la longitud se usan las letras E de Este y O de Oste. Adicionalmente los segundos pueden incluir opcionalmente hasta <strong>cuatro decimales</strong>. Un ejemplo válido son las coordenadas 18°30′13″N,88°18′19.53″O</p>
         <label for="">Coordenadas geográficas</label>
         <input type="text" id="coordenadas">
         <br>
