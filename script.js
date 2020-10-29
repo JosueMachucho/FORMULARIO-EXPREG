@@ -8,7 +8,7 @@ function validacion() {
             alert('Hay errores en el RFC ingresado');
             return false;
         }else if (!(cooordenadas == null || cooordenadas.length == 0 || /^\s+$/.test(cooordenadas)) && 
-           !(/^([0-8]\d|90|\d)[:|°]([0-5]\d|\d)[:|'|′]([0-5]\d|\d)(\.[\d]{1,4})?["|″][NS],(0|[\d]{2}|1[0-7]\d|180|\d)[:|°]([0-5]\d|\d)[:|'|′]([0-5]\d|\d)(\.[\d]{1,4})?["|″][EO]/.test(cooordenadas))){
+           !(/^([0-8]\d|90|\d)[:|°]([0-5]\d|\d)[:|'|′]([0-5]\d|\d)(\.[\d]{1,4})?["|″][NS](,|\s|)(0|[\d]{2}|1[0-7]\d|180|\d)[:|°]([0-5]\d|\d)[:|'|′]([0-5]\d|\d)(\.[\d]{1,4})?["|″][EO]/.test(cooordenadas))){
             alert('Los valores de coordenadas ingresados no son válidos}');
             return false;
         }
