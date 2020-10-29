@@ -8,8 +8,6 @@ input{
     
 }
 div{
-    background-color:rgba(0.5,0.4,0,.05);
-    background:inherit;
     position: absolute;
     top: 0;
     left: 0;
